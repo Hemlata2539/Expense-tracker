@@ -1,0 +1,12 @@
+@"
+node_modules/
+client/node_modules/
+server/node_modules/
+server/.env
+client/.env
+.env
+dist/
+build/
+*.log
+.DS_Store
+"@ | Out-File -Encoding utf8 .gitignore
